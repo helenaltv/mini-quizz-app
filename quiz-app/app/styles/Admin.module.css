@@ -1,0 +1,99 @@
+/* styles/Admin.module.css */
+.container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.textInput {
+  width: calc(100% - 90px);
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.header {
+  font-size: 2em;
+  color: #333;
+  text-align: center;
+}
+
+.button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #0070f3;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.buttonHover:hover {
+  background-color: #005bb5;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.listItem {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.removeButton {
+  background-color: #e00;
+  margin-left: 10px;
+}
+
+.removeButtonHover:hover {
+  background-color: #c00;
+}
+.container {
+  padding: 20px;
+}
+.container {
+  padding: 20px;
+}
+
+.form {
+  margin-bottom: 20px;
+}
+
+.label {
+  display: block;
+  margin: 5px 0;
+}
+
+.input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.button {
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  background-color: #0070f3;
+  color: #fff;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #005bb5;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.listItem {
+  margin-bottom: 10px;
+}
